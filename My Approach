@@ -1,0 +1,5 @@
+I was able to solve this assignment using OpenCV and Python3. At first a devised a function - extract_Coor to extract coordinates from the given dataset. Using ElementTree
+this was made easily possible. I accessed the coordinates in <bndbox> and stored them in a list. Another list was created to hold the status of the traffic lights. I also extracted the image name. In the main function i iterated through all the files of the folder in current dir choosing only xml files. After this i passed the file through the extract_Coor() which returned the required info. Using the coordinates I was able to draw rectangles and display the status of the traffic light using rectangle() and putText(). I then rewrote the original images with the new edited ones.
+
+Thank You for giving this opportunity to showcase my skills
+Aditya Walia
